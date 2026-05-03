@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML Form Elements</title>
+
+<style>
+    body {
+        font-family: "Times New Roman", serif;
+        padding: 30px;
+        background: #f7f7f7;
+    }
+
+    h1 {
+        color: purple;
+    }
+
+    fieldset {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        border: 2px solid #ccc;
+        width: 380px;
+    }
+
+    legend {
+        color: purple;
+        font-weight: bold;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    label {
+        display: inline-block;
+        width: 140px;
+    }
+
+    input, select, textarea {
+        width: 180px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<h1>HTML Form Elements</h1>
+
+<form oninput="result.value=num1.value">
+
+<fieldset>
+<legend>Personal Information</legend>
+
+<div class="form-group">
+    <label>Full Name</label>
+    <input type="text">
+</div>
+
+<div class="form-group">
+    <label>Email</label>
+    <input type="email">
+</div>
+
+<div class="form-group">
+    <label>Password</label>
+    <input type="password">
+</div>
+
+<div class="form-group">
+    <label>Country</label>
+    <select>
+        <option>Saudi Arabia</option>
+        <option>Qatar</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label>Upload File</label>
+    <input type="file">
+</div>
+
+<div class="form-group">
+    <label>Supported Browser</label>
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+    </datalist>
+</div>
+
+<div class="form-group">
+    <label>Description</label>
+    <textarea rows="3"></textarea>
+</div>
+
+<div class="form-group">
+    <label>Number 1</label>
+    <input type="number" id="num1" value="30">
+</div>
+
+<div class="form-group">
+    <label>Result</label>
+    <output name="result">30</output>
+</div>
+
+<input type="submit" value="Submit">
+
+</fieldset>
+
+</form>
+
+</body>
+</html
