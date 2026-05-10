@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1e1e2f;
+    padding: 18px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #00bfff;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Title */
+#main-title {
+    font-size: 60px;
+    color: #8b1e3f;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.text {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+/* Image */
+img {
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+/* Form */
+form {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #1e1e2f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00bfff;
+}
